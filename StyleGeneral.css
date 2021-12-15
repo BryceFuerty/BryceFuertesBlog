@@ -1,0 +1,126 @@
+html{
+    background-color: #ffffff;
+    margin: 1vh 2vw 1vh 2vw;
+}
+
+body{
+    background-color: #F2F3F4;
+    padding: 0.3vh 0.75vw 0.3vh 0.75vw;
+    border-radius: 3px;
+
+}
+.rectangleGris{
+
+    background-color: #404040;
+    margin-top: -2%;
+    padding-top: 20px;
+    margin-left : -3.5%;
+    margin-right : -4%;
+    padding-bottom: 50px;
+    padding-left : 1%;
+    font-family : "Roboto";
+    
+}
+
+
+
+.header{
+    background-color: blue;
+    padding-left: 0.75vw;
+    padding-right: 0.75vw;
+    border-radius: 3px;
+    font-family : "Roboto";
+}
+
+
+
+
+a {
+    color: #ffffff;
+    text-decoration:none; 
+    }
+
+
+.navitem {
+    list-style-type: none;
+    margin: 0;
+    padding: 1vh;
+    display: inline;
+    line-height: 1;
+    margin-left: 4%;
+    margin-right: 4% ;
+    
+    
+}
+
+.navitem-1 {
+
+    padding : 1vh;
+    font-family : "Roboto";
+    list-style-type: none;
+    display: table-cell;
+    margin-top: 2%;
+}
+
+.navitem-2 {
+
+    padding : 1vh;
+    font-family : "Roboto";
+    list-style-type: none;
+    display: table-cell;
+    margin-top: -20%;
+    margin-right: 2% ;
+
+}
+.navitem-3 {
+
+    padding : 1vh;
+    font-family : "Roboto";
+    list-style-type: none;
+    display: table-cell;
+    margin-top: -20%;
+    margin-right: 2% ;
+}
+
+.navbar{
+    margin-left: 80%;
+    margin-right: 2% ;
+    margin-top: 1% ;
+   
+    
+    
+
+
+}
+
+#menu-item-752, #menu-item-753, #menu-item-825{
+    display: inline;
+    border-right:1px solid white;
+
+}
+
+.Logo {
+    
+  margin-left : -0.5%;
+  width: 05%;
+  height: 5%;
+  border-radius : 10%;
+ 
+}
+
+
+
+@font-face {
+    font-family: "Roboto";
+    src: url("Police/Roboto-Regular.ttf") format('truetype');
+
+   }
+
+h1 {
+
+    font-size : 1.5cm;
+    margin-top : 5px;
+  
+
+
+}
