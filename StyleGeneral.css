@@ -18,7 +18,7 @@ body{
     margin-right : -4%;
     padding-bottom: 50px;
     padding-left : 1%;
-    font-family : "Roboto";
+    font-family : "Geom";
     
 }
 
@@ -29,10 +29,8 @@ body{
     padding-left: 0.75vw;
     padding-right: 0.75vw;
     border-radius: 3px;
-    font-family : "Roboto";
+    font-family : "Geom";
 }
-
-
 
 
 a {
@@ -44,7 +42,7 @@ a {
 .navitem {
     list-style-type: none;
     margin: 0;
-    padding: 1vh;
+    padding: 10%;
     display: inline;
     line-height: 1;
     margin-left: 4%;
@@ -55,44 +53,52 @@ a {
 
 .navitem-1 {
 
-    padding : 1vh;
-    font-family : "Roboto";
+    padding-left: 10px;
+    font-family : "Geom";
     list-style-type: none;
     display: table-cell;
-    margin-top: 2%;
+    margin-top: 10%;
+    font-size: 0.55cm; 
 }
 
 .navitem-2 {
 
-    padding : 1vh;
-    font-family : "Roboto";
+    padding-left : 10px;
+    font-family : "Geom";
     list-style-type: none;
     display: table-cell;
     margin-top: -20%;
-    margin-right: 2% ;
+    margin-right: 10% ;
+    font-size: 0.55cm; 
 
 }
 .navitem-3 {
 
-    padding : 1vh;
-    font-family : "Roboto";
+    padding-left : 10px;
+    font-size: 0.55cm; 
+    font-family : "Geom";
     list-style-type: none;
     display: table-cell;
     margin-top: -20%;
-    margin-right: 2% ;
+    margin-right: 10% ;
 }
+
+
 
 .navbar{
-    margin-left: 80%;
-    margin-right: 2% ;
-    margin-top: 1% ;
+    margin-left : 70%;
+    margin-top : -5% ;
+    margin-bottom : 0% ;
+    c
    
-    
-    
+}
+
+.Title {
+    text-align: center;
+    margin-top : -3.5%;
 
 
 }
-
 #menu-item-752, #menu-item-753, #menu-item-825{
     display: inline;
     border-right:1px solid white;
@@ -101,26 +107,361 @@ a {
 
 .Logo {
     
-  margin-left : -0.5%;
-  width: 05%;
-  height: 5%;
+  margin-left : 1%;
+  width: 6%;
+  height: 6%;
   border-radius : 10%;
- 
+  margin-top : 1%;
 }
 
 
 
 @font-face {
-    font-family: "Roboto";
-    src: url("Police/Roboto-Regular.ttf") format('truetype');
+    font-family: "Geom";
+    src: url("Police/Geomanist-Regular&Italic/Desktop/Geomanist-Regular.otf") format('truetype');
 
    }
 
 h1 {
-
+   
     font-size : 1.5cm;
     margin-top : 5px;
   
 
+
+}
+
+
+.navitem-3:hover {
+    cursor : pointer;
+    transform : scale(1.08);
+
+}
+
+.navitem-2:hover {
+    cursor : pointer;
+    transform : scale(1.08);
+
+}
+
+.navitem-1:hover {
+    cursor : pointer;
+    transform : scale(1.08);
+
+}
+
+.Reseaux{
+    font-family: "Geom";
+}
+
+
+h2 {
+   
+    font-family: "Geom";
+    font-size : 0.5cm;
+    margin-top : 5px;
+
+}
+
+.rectangleGrisFooter{
+
+    background-color: #404040;
+    margin-top: 60%;
+    padding-top: 200px;
+    margin-left : -4%;
+    margin-right : -4%;
+    margin-bottom : -40%;
+    text-align: center;
+    
+}
+
+
+.Fleche {
+    text-align: center;
+    padding-bottom: -5px;
+    margin-bottom :  130px;
+    margin-top :  -350px;
+
+
+
+}
+
+.Perso{
+    text-align: left;
+    padding-top:0px;
+    margin-top:-250px;
+    padding-left:400px;
+    font-family: "Geom";
+    font-size: 0.6cm;
+
+
+
+}
+
+.PhotoProf{
+
+    padding-left : 40px;
+    padding-top : 50px;
+
+
+
+}
+
+.Exp{
+
+    padding-top : 100px;
+    font-family: "Geom";
+    font-size: 0.65cm;
+
+
+
+
+}
+
+.Img1{
+    padding-top : 20px;
+    margin-right : 40àpx;
+
+}
+
+
+.Img2{
+
+    margin-top : -130px;
+    margin-left : 140px ;
+    margin-right : 400px;
+    
+}
+
+
+.Img3{
+
+    margin-top : -212px;
+    margin-left : 250px;
+    margin-right : 400px;
+}
+
+
+.Img4{
+
+    margin-top : -120px;
+    margin-left : 350px;
+    margin-right : 500px;
+}
+
+.NvL{
+    margin-top : 50px;
+    font-size : 0,85cm;
+    font-weight: bold;
+    padding-bottom : 10px;
+}
+
+
+.LangInfo {
+
+    padding-top : 50px;
+    
+}
+
+.NvI{
+    font-size : 0,85cm;
+    font-weight: bold;
+    padding-bottom : 10px;
+
+
+}
+
+
+
+.CentreInt{
+
+    margin-top : 150px;
+
+
+
+}
+
+.NInt {
+
+    font-weight: bold;
+    padding-bottom : 10px ;
+
+
+}
+
+
+.Img6{
+    margin-top : -110px;
+    margin-left : 120px;
+
+  
+}
+
+.AnneForm1 {
+    padding-top : 50px;
+    padding-left : 25px;
+    font-family: "Geom";
+    font-size: 0.6cm;
+
+
+
+}
+
+
+.Form1{
+    margin-left : 150px;
+    margin-top : -50px;
+    font-family: "Geom";
+    font-size: 0.6cm;
+
+
+
+
+}
+
+.NomForm1{
+    margin-top : 40px;
+    font-family: "Geom";
+    font-size: 1cm;
+    
+}
+
+
+
+
+
+
+
+
+
+.AnneForm2 {
+    padding-top : 50px;
+    padding-left : 25px;
+    font-family: "Geom";
+    font-size: 0.6cm;
+
+
+
+}
+
+
+.Form2{
+    margin-left : 150px;
+    margin-top : -50px;
+    font-family: "Geom";
+    font-size: 0.6cm;
+
+
+
+
+}
+
+.NomForm2{
+    margin-top : 150px;
+    font-family: "Geom";
+    font-size: 1cm;
+    
+}
+
+
+
+
+
+
+
+
+
+.NomExp{
+
+    margin-top : 50px;
+    font-family: "Geom";
+    font-size: 1cm;
+
+}
+
+
+.AnneExp{
+
+    margin-top : 50px;
+    padding-left : 50px;
+    font-family: "Geom";
+    font-size: 0.6cm;
+
+
+}
+
+.Expe {
+
+    margin-left : 150px;
+    margin-top : -50px;
+    font-family: "Geom";
+    font-size: 0.6cm;
+
+
+}
+
+
+
+.Cont{
+
+
+
+}
+
+
+.AdrM{
+
+    margin-top : 50px;
+    margin-left : 50px;
+    font-family: "Geom";
+    font-size: 1cm;
+
+}
+
+
+.Adr{
+  
+    margin-top : 50px;
+    margin-left : 50px;
+    font-family: "Geom";
+    font-size: 1cm;
+
+}
+
+.NumT{
+
+    margin-top : 50px;
+    margin-left : 50px;
+    font-family: "Geom";
+    font-size: 1cm;
+
+}
+
+
+.NumeroT {
+
+    margin-top : 50px;
+    margin-left : 50px;
+    font-family: "Geom";
+    font-size: 0.6cm;
+
+}
+
+.Adresse {
+
+    margin-top : 50px;
+    margin-left : 50px;
+    font-family: "Geom";
+    font-size: 0.6cm;
+
+}
+
+.AdresseM{
+
+
+    margin-top : 50px;
+    margin-left : 50px;
+    font-family: "Geom";
+    font-size: 0.6cm;
 
 }
